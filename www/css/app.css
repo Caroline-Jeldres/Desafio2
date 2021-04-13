@@ -10,7 +10,7 @@
 
 /* Custom color theme properties */
 :root {
-  --f7-font-family : 'boggle';
+  --f7-font-family: "boggle";
   --f7-theme-color: #007aff;
   --f7-theme-color-rgb: 0, 122, 255;
   --f7-theme-color-shade: #0066d6;
@@ -39,8 +39,15 @@
 
 .demo-swiper .swiper-slide {
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   background: #fff;
+}
+
+.one-swiper {
+  font-style: normal;
+  font-family: "boggle";
+  margin: 0px 0 35px;
+  font-size: 18px;
 }
 
 .demo-swiper {
@@ -48,7 +55,7 @@
   font-family: "boggle";
   margin: 0px 0 35px;
   font-size: 18px;
-  height: 120px;
+  /* height: 120px; */
 }
 
 .demo-swiper.demo-swiper-auto .swiper-slide {
@@ -62,5 +69,64 @@
 .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
   width: 30%;
 }
+.btn-menu {
+     border-radius: 10px;
+    margin-left: 3px;
+    /* margin-right: 5px; */
+    font-size: 8px;
+    padding: 2px;
+    justify-content: center;
+}
+.h5 {
+  margin-right: 15px !important;
+}
 
+.productos {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.textos {
+  font-size: 8px;
+  width: 100%;
+  text-align: initial;
+}
+.precio {
+  font-weight: bold;
+  font-size: 11px;
+  margin-bottom: 1px;
+}
+
+.titulo {
+  font-weight: normal;
+  font: menu;
+  font-size: 10px;
+}
+.unidad {
+  font-weight: normal;
+  font: menu;
+  font-size: 10px;
+  color: gray;
+}
+.boton-agregar{
+     font-size: 10px;
+    height: 27px;
+    width: 80px;
+    border-radius: 30px;
+align-items: center;
+margin-top: 10px;
+}
+.star{
+ align-self: flex-start;
+}
+
+.color-yellow {
+color: yellow;
+}
+
+.top-productos{
+  margin-top: -6px !important;
+}
 /* Your app custom styles here */
