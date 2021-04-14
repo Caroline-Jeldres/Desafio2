@@ -89,7 +89,7 @@
   align-items: center;
 }
 .textos {
-  font-size: 8px;
+
   width: 100%;
   text-align: initial;
 }
@@ -101,14 +101,23 @@
 
 .titulo {
   font-weight: normal;
-  font: menu;
-  font-size: 10px;
+    font: menu;
+    font-size: 12px;
+    max-width: 103px;
+    height: 30px;
+    /* white-space: pre-wrap; */
+    padding: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 .unidad {
   font-weight: normal;
   font: menu;
   font-size: 10px;
   color: gray;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 .boton-agregar{
      font-size: 10px;

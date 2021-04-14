@@ -1,0 +1,72 @@
+<template>
+  <div class="page">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="title">Search Bar</div>
+        <div class="subnavbar">
+          <form class="searchbar">
+            <div class="searchbar-inner">
+              <div class="searchbar-input-wrap">
+                <input type="search" placeholder="Search" />
+                <i class="searchbar-icon"></i>
+                <span class="input-clear-button"></span>
+              </div>
+              <span class="searchbar-disable-button if-not-aurora">Cancel</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="searchbar-backdrop"></div>
+      <div class="block searchbar-hide-on-search">
+        <p>This block will be hidden on search. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+      <div class="list searchbar-found">
+        <ul>
+          <li class="item-content">
+             <div class="productos">
+
+                        <img height="60px" src="../assets/imagenes/Nectar-Watt-s-Seleccion-mango-maracuya-175-L.webp"
+                            alt="">
+
+                        <div class="textos">
+                            <p class="precio">$3.990</p>
+                            <p class="titulo ">Néctar selección mango-maracuya</p>
+
+                            <p class="unidad">1,75 Lts</p>
+
+
+                        </div>
+                        <button class="button button-outline button-round boton-agregar">Agregar</button>
+                    </div>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="block searchbar-not-found">
+        <div class="block-inner">Nothing found</div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+  export default (props, { $f7, $on }) => {
+    $on('pageInit', () => {
+      // create searchbar
+      var searchbar = $f7.searchbar.create({
+        el: '.searchbar',
+        searchContainer: '.list',
+        searchIn: '.titulo',
+        on: {
+          search(sb, query, previousQuery) {
+            console.log(query, previousQuery);
+          }
+        }
+      });
+    })
+
+    return $render;
+  }
+</script>
