@@ -9,6 +9,7 @@
        url(../fonts/MaterialIcons-Regular.woff2) format('woff2'),
        url(../fonts/MaterialIcons-Regular.woff) format('woff'),
        url(../fonts/MaterialIcons-Regular.ttf) format('truetype');
+       
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -59,3 +60,4 @@
   font-feature-settings: "liga";
   text-align: center;
 }
+
