@@ -108,6 +108,7 @@
 }
 .page-content{
   padding-top: 182px !important;
+  text-align: -webkit-center;
 }
 .adress{
   font-family: "boggle-regular";
@@ -213,7 +214,7 @@
   font-size: 13px;
 }
 .card-comprados-body-p{
-
+  text-align: left;
   margin-left: -12px;
   top: -20px;
   position: relative;
