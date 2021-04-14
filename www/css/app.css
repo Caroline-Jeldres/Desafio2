@@ -52,7 +52,10 @@
 
 .demo-swiper .swiper-slide {
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  margin-right: 15px;
+  margin-left: 20px;
+  width: 300px;
+  height: 185px;
   
 }
 
@@ -61,28 +64,17 @@
   font-family: "boggle";
   margin: 0px 0 35px;
   font-size: 18px;
-  height: 120px;
+  height: 180px;
 }
 .img-prom{
   width: 289px;
 }
-.swiper-slide .promo1{
-  background: url(../assets/botilider.png);
+.promo1{
+  width: 280px;
+  height: 180px;
 }
 
-.demo-swiper.demo-swiper-auto .swiper-slide {
-  width: 289px;
-  height: 174px;
-  
-}
 
-.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
-  width: 70%;
-}
-
-.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
-  width: 30%;
-}
 .location{
   position: relative;
   top: 10px;
@@ -276,7 +268,7 @@
   width: 373px;
   height: 140px;
   background-color: rgba(245, 194, 66, 1);
-  border-radius: 0 !important;
+  border-radius: 12px !important;
 }
 .card-despacho-header{
   display: flex;
