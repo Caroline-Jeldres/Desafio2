@@ -1,21 +1,34 @@
 @font-face {
-  font-family: "boggle";
+  font-family: "boggle-bold";
   src: url(../fonts/BOGLEBOLD.OTF);
+}
+@font-face {
+  font-family: "boggle-regular";
+  src: url(../fonts/BOGLEREGULAR.OTF);
 }
 
 /* iOS Cordova Tweak */
 .device-cordova.device-ios {
   height: 100vh;
 }
-
+.page{
+  background-color: #fff !important;
+}
+.navbar-bg:after {
+  background-color: #fff !important;
+}
 /* Custom color theme properties */
 :root {
-  --f7-font-family : 'boggle';
+  --f7-font-family : "boggle-bold", "boggle-regular";
   --f7-theme-color: #007aff;
   --f7-theme-color-rgb: 0, 122, 255;
   --f7-theme-color-shade: #0066d6;
   --f7-theme-color-tint: #298fff;
   --f7-input-outline-border-radius: 25px;
+  --f7-navbar-title-line-height: 2.2px;
+  --f7-navbar-bg-color: #fff;
+  --f7-searchbar-input-text-color:  rgba(0, 0, 0, 0.35);
+  --f7-searchbar-placeholder-color: rgba(0, 0, 0, 0.35);
 }
 .demo-card-header-pic .card-header {
   height: 40vw;
@@ -40,7 +53,7 @@
 .demo-swiper .swiper-slide {
   box-sizing: border-box;
   border: 1px solid #ddd;
-  background: #fff;
+  
 }
 
 .demo-swiper {
@@ -50,9 +63,17 @@
   font-size: 18px;
   height: 120px;
 }
+.img-prom{
+  width: 289px;
+}
+.swiper-slide .promo1{
+  background: url(../assets/botilider.png);
+}
 
 .demo-swiper.demo-swiper-auto .swiper-slide {
-  width: 85%;
+  width: 289px;
+  height: 174px;
+  
 }
 
 .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
@@ -62,5 +83,289 @@
 .demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
   width: 30%;
 }
+.location{
+  position: relative;
+  top: 10px;
+}
+.navbar{
+  height: 107px;
+}
+.navbar .title{
+  overflow: visible;
+  top: -20px;
+}
+.block{
+  padding-top: 38px !important;
+  padding-left: 14px !important;
+}
+.location-p{
+  font-size: 13px;
+  color: #828282 !important;
+  position: relative;
+  left: 47px;
+  font-family: "boggle-regular";
+  margin: 0;
+  top: 8px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.acount{
+  position: absolute;
+  top: 22px;
+  right: 13px;
+}
+.page-content{
+  padding-top: 182px !important;
+}
+.adress{
+  font-family: "boggle-regular";
+  position: absolute;
+  color: rgba(0, 114, 210, 1);
+  font-size: 12px;
+  background: #E5F8FF;
+  height: 34px !important;
+  width: 220px;
+  text-align: center;
+  left: 64px;
+  top: 72px;
+}
+.list .item-input-wrap {
+  height: 42px;
+}
+.search{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 8px;
+  right: 15px;
+  width: 28px;
+}
+.item-input-outline .item-floating-label {
+  margin-top: 10px !important;
+  top: 12px;
+}
+.list ul:before {
+  content: '';
+  position: absolute;
+  background-color: transparent !important;
+}  
+.navbar-bg:before {
+  background: transparent !important;
+}
+.input-search{
+  position: relative;
+  top: 5px;
+  left: 20px;
+  color: rgba(130, 130, 130, 1) !important;
 
+}
+.input-search::placeholder {
+  font-size: 18px !important;
+}  
+.list .item-inner {
+  padding-top: 22px;
+  
+}
+.list ul:after {
+  background-color: transparent !important;
+}
+.input-outline:after, .item-input-outline .item-input-wrap:after {
+  border: 1px solid #C4C4C4 !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.card-comprados{
+  width: 373px;
+  height: 236px;
+  background: url(../assets/background.png);
+}
+.card-comprados-header{
+  display: flex;
+}
+.card-comprados-header-p{
+  font-family: "boggle-regular";
+  font-size: 28px;
+  color: #fff;
+  margin-left: 35px;
+}
+.card-comprados-header-img{
+  width: 26px;
+  height: 33px;
+  position: relative;
+  top: 20px;
+}
+.card-comprados-header2{
+  display: flex;
+  position: absolute;
+  top: 36px;
+  align-items: center;
+}
+.card-comprados-header2-p{
+  font-family: "boggle-bold";
+  color: #fff;
+  font-size: 28px;
+  margin-left: 35px;
+}
+.card-comprados-header2-p2{
+  font-family: "boggle-regular";
+  color: #fff;
+  font-size: 18px;
+  margin-left: 12px;
+
+}
+.card-comprados-body{
+  display: flex;
+  position: absolute;
+  top: 118px;
+  font-family: "boggle-regular";
+  color: #fff;
+  font-size: 13px;
+}
+.card-comprados-body-p{
+
+  margin-left: -12px;
+  top: -20px;
+  position: relative;
+
+}
+.a-comprados{
+  font-family: "boggle-bold";
+  font-size: 12px;
+  color: black;
+  width: 120px;
+  height: 27px;
+  border-radius: 12px;
+  top: 194px;
+  align-items: end;
+  left: 232px;
+  position: absolute;
+}
+.card-info{
+  width: 373px;
+  height: 140px;
+  background: url(../assets/background.png);
+}
+.card-info-header{
+  display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+}
+.card-info-img{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 23px;
+}
+.card-info-p{
+  font-family: "boggle-bold";
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  left: 35px;
+}
+.card-info-p2{
+  font-family: "boggle-regular";
+  text-align: left;
+    position: relative;
+    color: #fff;
+    margin: 25px;
+    font-size: 14px;
+    top: 64px;
+}
+.card-despacho{
+  width: 373px;
+  height: 140px;
+  background-color: rgba(245, 194, 66, 1);
+  border-radius: 0 !important;
+}
+.card-despacho-header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card-despacho-header-p{
+  font-size: 28px;
+  font-family: "boggle-bold";
+  color: #000;
+  left: 61px;
+  position: absolute;
+  top: -12px;
+  
+}
+.card-despacho-header-p2{
+  font-size: 28px;
+  font-family: "boggle-bold";
+  color: #fff;
+  background-color: rgba(174, 62, 41, 1);
+  width: 127px;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  border-radius: 8px;
+}
+.card-despacho-body-img{
+  position: absolute;
+    right: 31px;
+    width: 98px;
+}
+.card-despacho-footer{
+  color: #000;
+  font-family: "boggle-regular";
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 72px;
+}
+.card-despacho-footer-p{
+  background: rgba(242, 242, 242, 1);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.div-carrito{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+}
+.p-carrito{
+  font-size: 23px;
+  font-family: "boggle-bold";
+  color: #000;
+}
+.p-carrito-mas{
+  color: rgba(0, 114, 210, 1);
+  font-size: 20px;
+}
+.product-car{
+  background: #F5F5F5;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: 20px;
+}
+.img-carrito{
+  top: 10px;
+  position: relative;
+}
+.ios-translucent-bars .navbar-bg {
+  background-color: #fff !important;
+}
+.navbar .left{
+  position: absolute;
+  top: 8px;
+}
+.title-header{
+  margin-left: 44px;
+}
+.acount2{
+  position: absolute;
+  top: 12px;
+  right: 13px;
+}
+.block2{
+  padding-top: 2px !important;
+  padding-left: 14px !important;
+}
 /* Your app custom styles here */
