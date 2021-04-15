@@ -21,6 +21,26 @@ var routes = [
     url: "./pages/home.html",
   },
   {
+    path: "/vegano/",
+    url: "./pages/vegano.html",
+  },
+  {
+    path: "/cumpleaños/",
+    url: "./pages/cumpleaños.html",
+  },
+  {
+    path: "/feria/",
+    url: "./pages/feria.html",
+  },
+  {
+    path: "/asado/",
+    url: "./pages/asado.html",
+  },
+  {
+    path: "/cine/",
+    url: "./pages/cine.html",
+  },
+  {
     path: "/historial-compras/",
     url: "./pages/historial-compras.html",
   },
