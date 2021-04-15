@@ -32,138 +32,136 @@
 <body>
   <div id="app">
     <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
-    <div id="view-home" class="view view-main view-init tab tab-active">
-      <div class="page" data-name="home">
-        <!-- Top Navbar -->
-        <div class="navbar navbar2">
-          <div class="navbar-bg navbar2-bg"></div>
-          <div class="navbar-inner" >
-            <div class="title2 ">
-              <img class="location" src="https://i.imgur.com/MzhWQEF.png" alt="">
-              Lider San Joaquín 
-              <h5 class="location-p">Av. Vicuña Mackenna 5432...</h5>
+        <div id="view-home" class="view view-main view-init tab tab-active">
+              <div class="page" data-name="home">
+                <!-- Top Navbar -->
+                <div class="navbar navbar2">
+                  <div class="navbar-bg navbar2-bg"></div>
+                  <div class="navbar-inner navbar-home" >
+                    <div class="title2 ">
+                      <img class="location" src="https://i.imgur.com/MzhWQEF.png" alt="">
+                      Lider San Joaquín 
+                      <h5 class="location-p">Av. Vicuña Mackenna 5432...</h5>
 
-            </div>
-            <div class="acount">
-              <img src="https://i.imgur.com/350pk6v.png" alt="">
-            </div>
-            <div class="adress">
-              <p>Retira <strong>el domingo desde las 13:00 hrs.</strong></p>
-            </div>
+                    </div>
+                    <div class="acount">
+                      <img src="https://i.imgur.com/350pk6v.png" alt="">
+                    </div>
+                    <div class="adress">
+                      <p>Retira <strong>el domingo desde las 13:00 hrs.</strong></p>
+                    </div>
 
 
 
-          </div>
-          <div class="block block1">
-            <div class="list">
-              <ul>
-                <li class="item-content item-input item-input-outline">
-                  <div class="item-inner">
-                    <!-- "item-floating-label" class on item title -->
-                    <div class="item-input-wrap">
-                      <input type="text" class="input-search" name="name" placeholder="¿Qué producto buscas hoy?">
-                      <div class="item-media"><img class="search" src="https://i.imgur.com/JirkOUh.png" alt=""></div>
+                  </div>
+                  <div class="block block1">
+                    <div class="list">
+                      <ul>
+                        <li class="item-content item-input item-input-outline">
+                          <div class="item-inner">
+                            <!-- "item-floating-label" class on item title -->
+                            <div class="item-input-wrap">
+                              <input type="text" class="input-search" name="name" placeholder="¿Qué producto buscas hoy?">
+                              <div class="item-media"><img class="search" src="https://i.imgur.com/JirkOUh.png" alt=""></div>
+                            </div>
+                          </div>
+
+                        </li>
+                      </ul>
                     </div>
                   </div>
+                  
+                </div>
 
-                </li>
-              </ul>
-            </div>
-          </div>
-          
-        </div>
-
-        <!-- Scrollable page content-->
-        <div class="page-content page-content2">
-          <!-- tarjeta tus productos mas comprados -->
-          <div class="card demo-card-header-pic card-comprados">
-               <div class="card-comprados-header">
-                 <p class="card-comprados-header-p">Tus</p>
-                 <img class="card-comprados-header-img" src="./assets/2.png" alt="">
-               </div>
-               <div class="card-comprados-header2">
-                 <p class="card-comprados-header2-p">productos</p> <p class="card-comprados-header2-p2">más comprados</p>
-               </div>
-              
-              <div class="card-comprados-body">
-                <img class="card-comprados-body-img" src="./assets/image_banner.png" alt="">
-                <p class="card-comprados-body-p">¡Accede a tu historial de compras y ahorra tiempo personalizando tus productos!</p>
-              </div>
-              <a class="col button button-fill color-yellow a-comprados" href="/mas-comprados/">Ingresa Aquí</a>
-          </div>
-          <!-- tarjeta información importante -->
-          <div class="card demo-card-header-pic card-info">
-             <div class="card-info-header">
-               <img class="card-info-img" src="./assets/icon_walmart1.png" alt="">
-               <p class="card-info-p"> ¡Información Importante!</p>
-             </div>
-             <div class="card-info-p2">
-               <p >
-                Por disposición de la autoridad sanitaria, en comunas que se encuentren en fase 1 y 2, sólo podemos ofrecerte <strong> bienes esenciales.</strong>
-             </p>
-            </div>
-          </div>
-          <!-- tarjeta despacho -->
-          <div class="card demo-card-header-pic card-despacho">
-             <div class="card-despacho-header">
-               <p class="card-despacho-header-p">DESPACHO</p>
-               <br>
-               <p class="card-despacho-header-p2">GRATIS</p>
-             </div>
-             <div class="card-despacho-body"> 
-               <img class="card-despacho-body-img" src="./assets/icon_truck.png" alt="">
-              </div>
-              <div class="card-despacho-footer">
-                <center>
-                  <p class="card-despacho-footer-p"><strong>Por compras sobre $50.000</strong> hasta el 30 de Abril de 2021</p>
-                </center>
-              </div>
-              
-          </div>
-          <!-- slider pagina principal -->
-            <div
-            data-pagination='{"el": ".swiper-pagination"}'
-            data-space-between="3"
-            data-slides-per-view="auto"
-            data-centered-slides="true"
-            data-autoplay="true"
-            class="swiper-container swiper-init demo-swiper demo-swiper-auto">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div >
-                  <img class="promo1" src="./assets/boti.jpeg" alt="">
+                <!-- Scrollable page content-->
+                <div class="page-content page-content2">
+                  <!-- tarjeta tus productos mas comprados -->
+                  <div class="card demo-card-header-pic card-comprados">
+                      <div class="card-comprados-header">
+                        <p class="card-comprados-header-p">Tus</p>
+                        <img class="card-comprados-header-img" src="./assets/2.png" alt="">
+                      </div>
+                      <div class="card-comprados-header2">
+                        <p class="card-comprados-header2-p">productos</p> <p class="card-comprados-header2-p2">más comprados</p>
+                      </div>
+                      
+                      <div class="card-comprados-body">
+                        <img class="card-comprados-body-img" src="./assets/image_banner.png" alt="">
+                        <p class="card-comprados-body-p">¡Accede a tu historial de compras y ahorra tiempo personalizando tus productos!</p>
+                      </div>
+                      <a class="col button button-fill color-yellow a-comprados" href="/mas-comprados/">Ingresa Aquí</a>
+                  </div>
+                  <!-- tarjeta información importante -->
+                  <div class="card demo-card-header-pic card-info">
+                    <div class="card-info-header">
+                      <img class="card-info-img" src="./assets/icon_walmart1.png" alt="">
+                      <p class="card-info-p"> ¡Información Importante!</p>
+                    </div>
+                    <div class="card-info-p2">
+                      <p >
+                        Por disposición de la autoridad sanitaria, en comunas que se encuentren en fase 1 y 2, sólo podemos ofrecerte <strong> bienes esenciales.</strong>
+                    </p>
+                    </div>
+                  </div>
+                  <!-- tarjeta despacho -->
+                  <div class="card demo-card-header-pic card-despacho">
+                    <div class="card-despacho-header">
+                      <p class="card-despacho-header-p">DESPACHO</p>
+                      <br>
+                      <p class="card-despacho-header-p2">GRATIS</p>
+                    </div>
+                    <div class="card-despacho-body"> 
+                      <img class="card-despacho-body-img" src="./assets/icon_truck.png" alt="">
+                      </div>
+                      <div class="card-despacho-footer">
+                        <center>
+                          <p class="card-despacho-footer-p"><strong>Por compras sobre $50.000</strong> hasta el 30 de Abril de 2021</p>
+                        </center>
+                      </div>
+                  </div>
+                  <!-- slider pagina principal -->
+                    <div
+                      data-pagination='{"el": ".swiper-pagination"}'
+                      data-space-between="3"
+                      data-slides-per-view="auto"
+                      data-centered-slides="true"
+                      data-autoplay="true"
+                      class="swiper-container swiper-init demo-swiper demo-swiper-auto">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div >
+                                <img class="promo1" src="./assets/boti.jpeg" alt="">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div >
+                                <img class="promo1" src="./assets/limpieza.jpeg" alt="">
+                              </div>
+                            </div>
+                            <div class="swiper-slide">
+                              <div >
+                                <img class="promo1" src="./assets/casa.jpeg" alt="">
+                              </div>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="carrito">
+                    <div class="div-carrito">
+                      <p class="p-carrito">Exclusivo Lider App</p>
+                      <p class="p-carrito-mas">Ver más</p>
+                    </div>
+                    <div class="product-car">
+                      <img  class="img-carrito" src="./assets/shopping_cart_black_1.png" alt="">
+                      <p >15 Productos</p>
+                      <p >$30.000</p>
+                    </div>
+                    
+                  </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div >
-                  <img class="promo1" src="./assets/limpieza.jpeg" alt="">
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div >
-                  <img class="promo1" src="./assets/casa.jpeg" alt="">
-                </div>
-              </div>
-            
-            </div>
-          </div>
-          <div class="carrito">
-            <div class="div-carrito">
-              <p class="p-carrito">Exclusivo Lider App</p>
-              <p class="p-carrito-mas">Ver más</p>
-            </div>
-            <div class="product-car">
-               <img  class="img-carrito" src="./assets/shopping_cart_black_1.png" alt="">
-               <p >15 Productos</p>
-               <p >$30.000</p>
-            </div>
-            
-          </div>
         </div>
-        </div>
-      </div>
-    </div>
   </div>
+ 
   <!-- CORDOVA_PLACEHOLDER_DONT_REMOVE -->
   <!-- Framework7 library -->
   <script src="framework7/framework7-bundle.min.js"></script>
