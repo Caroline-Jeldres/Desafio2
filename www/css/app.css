@@ -264,6 +264,7 @@
   margin-right: 1px;
   margin-bottom: 1px;
   margin-top: 1px;
+  overflow: hidden;
 }
 .titulo2 {
   font-family: "boggle-regular"!important;
