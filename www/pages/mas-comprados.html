@@ -1,559 +1,555 @@
 <div class="page" data-name="mas-comprados">
-    <div class="navbar">
-        <div class="navbar-bg"></div>
-        <div class="navbar-inner">
-            <div class="left">
-                <a href="/" class="link icon-only">
-                    <i class="icon f7-icons if-not-md">menu</i>
-                    <i class="icon material-icons if-md">arrow_back</i>
-                </a>
-            </div>
-            <div class="title sliding">Mis productos más comprados</div>
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner">
+      <div class="left">
+        <a href="/" class="link icon-only">
+          <i class="icon f7-icons if-not-md">menu</i>
+          <i class="icon material-icons if-md">arrow_back</i>
+        </a>
+      </div>
+      <div class="title sliding">Mis productos más comprados</div>
+
+      <div class="right">
+        <a href="/productos/" class="link icon-only">
+          <i class="icon f7-icons if-not-md">menu</i>
+          <i class="icon material-icons if-md">search</i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scrollable page content-->
+  <div class="page-content">
+    <div class="block"></div>
+    <div
+      data-space-between="10"
+      data-slides-per-view="auto"
+      class="swiper-container swiper-init "
+    >
+   
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="/lista-lider/">
+            <img
+              class="banner"
+              src="./assets/imagenes/banner_listasLider.svg"
+              alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="/lista-personalizada/">
+            <img
+              class="banner"
+              src="./assets/imagenes/banner_miListaPersonalizada.svg"
+              alt=""
+          /></a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="/productos-favoritos/">
+            <img
+              class="banner"
+              src="./assets/imagenes/banner_misProductosFavoritos.svg"
+              alt=""
+          /></a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <center>
+      <img src="./assets/imagenes/icon_trophy.png" alt="" />
+      <h3 class="top-productos">Top Productos</h3>
+    </center>
+
+    <div
+      data-space-between="10"
+      data-slides-per-view="3"
+      data-autoplay="false"
+      class="swiper-container swiper-init demo-swiper"
+    >
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-wrapper" data-swiper-autoplay="2000">
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="star">
             <div class="right">
-                <a href="/productos/" class="link icon-only ">
-                    <i class="icon f7-icons if-not-md">menu</i>
-                    <i class="icon material-icons if-md">search</i>
-                </a>
+              <span class="material-icons color-yellow"> star_solid </span>
             </div>
+          </div>
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/cafe12345.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$5.790</p>
+              <p class="titulo">Nescafe expreso</p>
+              <p class="unidad">100 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
         </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="star">
+            <div class="right">
+              <span class="material-icons color-yellow"> star_solid</span>
+            </div>
+          </div>
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/kukys.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$850</p>
+              <p class="titulo">Galleta kuky clásica</p>
+
+              <p class="unidad">120 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="star">
+            <div class="right">
+              <span class="material-icons color-yellow"> star_solid</span>
+            </div>
+          </div>
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/marraquetas1485.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$2.790</p>
+              <p class="titulo">Pan marraqueta</p>
+
+              <p class="unidad">1,1 kg</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="star">
+            <div class="right">
+              <span class="material-icons color-yellow"> star_solid</span>
+            </div>
+          </div>
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Leche-descremada-1-L.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$920</p>
+              <p class="titulo">Leche descremada Surlat</p>
+
+              <p class="unidad">1 Lts</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Scrollable page content-->
-    <div class="page-content">
-        <div class="block">
-        </div>
-        <div data-space-between="10" data-slides-per-view="3" data-autoplay="false"
-            class="swiper-container swiper-init one-swiper">
-            <!-- <div class="swiper-pagination"></div> -->
-            <div class="swiper-wrapper" data-swiper-autoplay="2000">
-                <div class="swiper-slide" data-swiper-autoplay="2000"><a href="/historial-compras/"
-                        class="button button-fill btn-menu">Mi
-                        historial compras</a></div>
-                <div class="swiper-slide" data-swiper-autoplay="2000"><a href="/productos-favoritos/"
-                        class="button button-fill btn-menu">Mis
-                        productos favoritos</a></div>
-                <div class="swiper-slide" data-swiper-autoplay="2000"><a href="/lista-personalizada/"
-                        class="button button-fill btn-menu">Mi lista
-                        personalizada</a></div>
-                <div class="swiper-slide" data-swiper-autoplay="2000"><a href="/lista-lider/"
-                        class="button button-fill btn-menu">listas
-                        lider</a></div>
+    <center>
+      <h3 class="top-productos">Productos más comprados</h3>
+    </center>
 
+    <div
+      data-space-between="10"
+      data-slides-per-view="3"
+      data-autoplay="false"
+      class="swiper-container swiper-init demo-swiper"
+    >
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-wrapper" data-swiper-autoplay="2000">
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Nectar-Watt-s-Seleccion-mango-maracuya-175-L.webp"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$3.990</p>
+              <p class="titulo">Néctar selección mango-maracuya</p>
+
+              <p class="unidad">1,75 Lts</p>
             </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
         </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Miraflores-·-Arroz-grano-largo-ancho-grado-1-1kg.jpg"
+              alt=""
+            />
 
+            <div class="textos">
+              <p class="precio">$1.150</p>
+              <p class="titulo">Arroz Miraflores grado 1</p>
 
-        <center><img src="../assets/imagenes/icon_trophy.png" alt="">
-            <h3 class="top-productos">Top Productos</h3>
-        </center>
-
-        <div data-space-between="10" data-slides-per-view="3" data-autoplay="true"
-            class="swiper-container swiper-init demo-swiper">
-
-            <!-- <div class="swiper-pagination"></div> -->
-            <div class="swiper-wrapper" data-swiper-autoplay="2000">
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="star">
-                        <div class="right"><span class="material-icons color-yellow">
-                                star_border
-
-                            </span></div>
-                    </div>
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/cafe12345.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$5.790</p>
-                            <p class="titulo">Nescafe expreso</p>
-
-                            <p class="unidad">100 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="star">
-                        <div class="right"><span class="material-icons color-yellow">
-                                star_border
-
-                            </span></div>
-                    </div>
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/kukys.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$850</p>
-                            <p class="titulo">Galleta kuky clásica</p>
-
-                            <p class="unidad">120 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="star">
-                        <div class="right"><span class="material-icons color-yellow">
-                                star_border
-
-                            </span></div>
-                    </div>
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/marraquetas1485.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$2.790</p>
-                            <p class="titulo">Pan marraqueta</p>
-
-                            <p class="unidad">1,1 kg</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="star">
-                        <div class="right"><span class="material-icons color-yellow">
-                                star_border
-
-                            </span></div>
-                    </div>
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Leche-descremada-1-L.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$920</p>
-                            <p class="titulo">Leche descremada Surlat</p>
-
-
-                            <p class="unidad">1 Lts</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
+              <p class="unidad">1 kg</p>
             </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
         </div>
-        <center>
-            <h3 class="top-productos">Productos más comprados</h3>
-        </center>
 
-        <div data-space-between="10" data-slides-per-view="3" data-autoplay="true"
-            class="swiper-container swiper-init demo-swiper">
-
-            <!-- <div class="swiper-pagination"></div> -->
-            <div class="swiper-wrapper" data-swiper-autoplay="2000">
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Nectar-Watt-s-Seleccion-mango-maracuya-175-L.webp"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$3.990</p>
-                            <p class="titulo">Néctar selección mango-maracuya</p>
-
-                            <p class="unidad">1,75 Lts</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Miraflores-·-Arroz-grano-largo-ancho-grado-1-1kg.jpg"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.150</p>
-                            <p class="titulo">Arroz Miraflores grado 1</p>
-
-
-                            <p class="unidad">1 kg</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/pasta_espiral_400_gr.png" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$680</p>
-                            <p class="titulo">Espirales Luchetti</p>
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/barilla.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$2.390</p>
-                            <p class="titulo">Salsa de tomate basilico Barilla</p>
-
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/queque.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$990</p>
-                            <p class="titulo">Queque naranja chips nutrabien</p>
-
-
-                            <p class="unidad">250 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Yoghurt-griego-natural-400-g-1-64896689 (1).jpg"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.049</p>
-                            <p class="titulo">Yogurt Griego natural</p>
-
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Leche-descremada-1-L.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$920</p>
-                            <p class="titulo">Leche descremada Surlat</p>
-
-
-                            <p class="unidad">1 Lts</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/avena.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$2.490</p>
-                            <p class="titulo">Cereal Quaker hearts de avena</p>
-
-                            <p class="unidad">320 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/te123.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.590</p>
-                            <p class="titulo">Té canela Supremo</p>
-
-
-                            <p class="unidad">40 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Mermelada-mora-con-trozos-fruta-250-g.webp" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$980</p>
-                            <p class="titulo">Mermelada de mora Whatts</p>
-
-
-                            <p class="unidad">250 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/pasta_espiral_400_gr.png"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$680</p>
+              <p class="titulo">Espirales Luchetti</p>
+
+              <p class="unidad">400 Grs</p>
             </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
         </div>
-        <center><img src="../assets/imagenes/icon_birthday.png" alt="">
-            <h3 class="top-productos">Exclusivos para ti</h3>
-        </center>
-
-        <div data-space-between="10" data-slides-per-view="3" data-autoplay="true"
-            class="swiper-container swiper-init demo-swiper">
-
-            <!-- <div class="swiper-pagination"></div> -->
-            <div class="swiper-wrapper" data-swiper-autoplay="2000">
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/torta.png"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$3.990</p>
-                            <p class="titulo">Néctar selección mango-maracuya</p>
-
-
-                            <p class="unidad">1,75 Lts</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Miraflores-·-Arroz-grano-largo-ancho-grado-1-1kg.jpg"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.150</p>
-                            <p class="titulo">Arroz Miraflores grado 1</p>
-
-
-                            <p class="unidad">1 kg</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/pasta_espiral_400_gr.png" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$680</p>
-                            <p class="titulo">Espirales Luchetti</p>
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/barilla.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$2.390</p>
-                            <p class="titulo">Salsa de tomate basilico Barilla</p>
-
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/queque.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$990</p>
-                            <p class="titulo">Queque naranja chips nutrabien</p>
-
-
-                            <p class="unidad">250 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Yoghurt-griego-natural-400-g-1-64896689 (1).jpg"
-                            alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.049</p>
-                            <p class="titulo">Yogurt Griego natural</p>
-
-
-                            <p class="unidad">400 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Leche-descremada-1-L.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$920</p>
-                            <p class="titulo">Leche descremada Surlat</p>
-
-
-                            <p class="unidad">1 Lts</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height=60px src="../assets/imagenes/avena.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$2.490</p>
-                            <p class="titulo">Cereal Quaker hearts de avena</p>
-
-
-                            <p class="unidad">320 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/te123.jpg" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$1.590</p>
-                            <p class="titulo">Té canla Supremo</p>
-
-
-                            <p class="unidad">40 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
-                <div class="swiper-slide" data-swiper-autoplay="2000">
-
-                    <div class="productos">
-
-                        <img height="60px" src="../assets/imagenes/Mermelada-mora-con-trozos-fruta-250-g.webp" alt="">
-
-                        <div class="textos">
-                            <p class="precio">$980</p>
-                            <p class="titulo">Mermelada de mora Whatts</p>
-
-
-                            <p class="unidad">250 Grs</p>
-
-
-                        </div>
-                        <button class="button button-outline button-round boton-agregar">Agregar</button>
-                    </div>
-
-                </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/barilla.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$2.390</p>
+              <p class="titulo">Salsa de tomate basilico Barilla</p>
+
+              <p class="unidad">400 Grs</p>
             </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
         </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/queque.jpg" alt="" />
 
+            <div class="textos">
+              <p class="precio">$990</p>
+              <p class="titulo">Queque naranja chips nutrabien</p>
 
+              <p class="unidad">250 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Yoghurt-griego-natural-400-g-1-64896689 (1).jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$1.049</p>
+              <p class="titulo">Yogurt Griego natural</p>
+
+              <p class="unidad">400 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Leche-descremada-1-L.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$920</p>
+              <p class="titulo">Leche descremada Surlat</p>
+
+              <p class="unidad">1 Lts</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/avena.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$2.490</p>
+              <p class="titulo">Cereal Quaker hearts de avena</p>
+
+              <p class="unidad">320 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/te123.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$1.590</p>
+              <p class="titulo">Té canela Supremo</p>
+
+              <p class="unidad">40 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Mermelada-mora-con-trozos-fruta-250-g.webp"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$980</p>
+              <p class="titulo">Mermelada de mora Whatts</p>
+
+              <p class="unidad">250 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    
-</div>
+    <center>
+      <img width="25px" src="./assets/imagenes/chispy.svg" alt="" />
+      <h3 class="top-productos">Exclusivos para ti</h3>
+    </center>
+
+    <div
+      data-space-between="10"
+      data-slides-per-view="3"
+      data-autoplay="false"
+      class="swiper-container swiper-init demo-swiper"
+    >
+      <!-- <div class="swiper-pagination"></div> -->
+      <div class="swiper-wrapper" data-swiper-autoplay="2000">
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/nachos.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$1.150</p>
+              <p class="titulo">Panchito Pancho villa</p>
+
+              <p class="unidad">180 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Salsa-Mexicana-para-Tacos-Pancho-Villa-200-g-Picante.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$690</p>
+              <!-- <p class="precio">$990</p> -->
+              <p class="titulo">Salsa mexicana pancho villa 1</p>
+
+              <p class="unidad">250 Gms</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/barilla.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$2.390</p>
+              <p class="titulo">Salsa de tomate basilico Barilla</p>
+
+              <p class="unidad">400 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Papas-fritas-sabor-crema-y-cebolla-130-g.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$990</p>
+              <p class="titulo">Papas fritas Kryzpo sabor crema cebolla</p>
+
+              <p class="unidad">130 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/pisco.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$24.990</p>
+              <p class="titulo">Pisco Mistral añejado en roble</p>
+
+              <p class="unidad">750 Cc</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Pack-Bebida-Coca-Cola-Light-6-Unid-350cc-c-u.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$3.490</p>
+              <p class="titulo">Pack bebeida coca cola light</p>
+
+              <p class="unidad">6 Unid</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/avena.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$2.490</p>
+              <p class="titulo">Cereal Quaker hearts de avena</p>
+
+              <p class="unidad">320 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img
+              height="60px"
+              src="./assets/imagenes/Principal-3041.jpg"
+              alt=""
+            />
+
+            <div class="textos">
+              <p class="precio">$6.990</p>
+              <p class="titulo">Tabla de quesos Santa Rosa</p>
+
+              <p class="unidad">250 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" data-swiper-autoplay="2000">
+          <div class="productos">
+            <img height="60px" src="./assets/imagenes/hummus.jpg" alt="" />
+
+            <div class="textos">
+              <p class="precio">$1.490</p>
+              <p class="titulo">Pasta Hummus Buka</p>
+
+              <p class="unidad">220 Grs</p>
+            </div>
+            <button class="button button-outline button-round boton-agregar">
+              Agregar
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide" data-swiper-autoplay="2000">
+        <div class="productos">
+          <img
+            height="60px"
+            src="./assets/imagenes/Galletas-Cracker-horneadas-321-g.jpg"
+            alt=""
+          />
+
+          <div class="textos">
+            <p class="precio">$670</p>
+            <p class="titulo">Tripack Galletas craker original</p>
+
+            <p class="unidad">321 Grs</p>
+          </div>
+          <button class="button button-outline button-round boton-agregar">
+            Agregar
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="carrito">
+      <div class="div-carrito"></div>
+      <div class="product-car">
+        <img
+          class="img-carrito"
+          src="./assets/shopping_cart_black_1.png"
+          alt=""
+        />
+        <p>15 Productos</p>
+        <p>$30.000</p>
+      </div>
+    </div>
+  </div>
 </div>
