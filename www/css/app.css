@@ -17,6 +17,10 @@
 .navbar2-bg:after {
   background-color: #fff !important;
 }
+.navbar-home{
+  overflow: visible !important;
+    margin-left: 19px !important;
+}
 /* Custom color theme properties */
 :root {
   --f7-font-family: "boggle-bold", "boggle-regular";
@@ -94,8 +98,9 @@
   top: -20px;
 }
 .block1 {
-  padding-top: 38px !important;
+  padding-top: 52px !important;
   padding-left: 14px !important;
+  background: #fff;
 }
 .location-p {
   font-size: 13px;
@@ -104,18 +109,16 @@
   left: 49px;
   font-family: "boggle-regular";
   margin: 0;
-  /* top: 10px;
-  padding-top: 10px;
-  margin-bottom: 10px; */
-  margin-top: -11px;
+  padding-top: 2px;
 }
 .acount {
   position: absolute;
   top: 32px;
-  right: 19px;
+  right: 31px;
 }
 .page-content2 {
   padding-top: 182px !important;
+  text-align: -webkit-center;
 }
 .adress {
   font-family: "boggle-regular";
@@ -127,7 +130,7 @@
   width: 220px;
   text-align: center;
   left: 64px;
-  top: 72px;
+  top: 89px;
 }
 .list .item-input-wrap {
   height: 42px;
@@ -173,9 +176,11 @@
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12), 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
 .card-comprados {
-  width: 373px;
+  width: 350px;
   height: 236px;
   background: url(../assets/background.png);
+  margin-right: 0;
+  margin-left: 0;
 }
 .card-comprados-header {
   display: flex;
@@ -307,27 +312,31 @@
   color: #fff;
   font-size: 13px;
 }
-.card-comprados-body-p {
-  margin-left: -12px;
+.card-comprados-body-p{
+  text-align: left;
+  margin-left: -11px;
   top: -20px;
   position: relative;
+  right: 10px;
 }
 .a-comprados {
   font-family: "boggle-bold";
-  font-size: 12px;
-  color: black;
-  width: 120px;
-  height: 27px;
-  border-radius: 12px;
-  top: 194px;
-  align-items: end;
-  left: 232px;
-  position: absolute;
+    font-size: 12px;
+    color: black;
+    width: 120px;
+    height: 27px;
+    border-radius: 12px;
+    top: 194px;
+    align-items: end;
+    left: 210px;
+    position: absolute;
 }
 .card-info {
-  width: 373px;
+  width: 350px;
   height: 140px;
   background: url(../assets/background.png);
+  margin-right: 0;
+  margin-left: 0;
 }
 .card-info-header {
   display: flex;
@@ -358,10 +367,12 @@
   top: 64px;
 }
 .card-despacho {
-  width: 373px;
-  height: 140px;
-  background-color: rgba(245, 194, 66, 1);
-  border-radius: 12px !important;
+  width: 350px;
+    height: 140px;
+    background-color: rgba(245, 194, 66, 1);
+    border-radius: 12px !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 .card-despacho-header {
   display: flex;
